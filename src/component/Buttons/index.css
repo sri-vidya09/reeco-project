@@ -1,0 +1,12 @@
+.button-elements{
+    display: flex;
+    flex-direction: row;
+    
+}
+.decision-item{
+    border-radius: 10px;
+    border:0px;
+    outline: none;
+    padding: 5px;
+    
+}

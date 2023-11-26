@@ -1,0 +1,18 @@
+.table-contents{
+    margin: 30px;
+}
+.table-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid #201f1f;
+    border-top-right-radius:15px;
+    border-top-left-radius:15px;
+}
+.table-header-cell {
+
+    text-align: start;
+    padding: 8px;
+    margin-left: 4px;
+    align-items: center;
+}

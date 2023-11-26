@@ -1,0 +1,51 @@
+.header-card-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:14vh;
+    box-shadow: 0px 2px 3px -1px rgba(67, 65, 65, 0.922);
+
+}
+.span-heading{
+    text-decoration: underline;
+}
+.card-alignment{
+    font-size: 12px;
+    margin-left: 30px;
+}
+.card-order-alignment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.orders-heading{
+    font-size:23px;
+    font-weight:600;
+}
+.button-element{
+    display: flex;
+    flex-direction: row;
+}
+.button{
+    color: #205902;
+    background-color: transparent;
+    border:1px solid #000;
+    border-radius:20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    margin:20px; 
+}
+.button-approve{
+    background-color: #205902;
+    color: #fff;
+    border-radius:20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    margin:20px;
+    outline:0px; 
+}

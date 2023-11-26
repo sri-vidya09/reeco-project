@@ -1,0 +1,101 @@
+[
+    {
+      "id": "1",
+      "product_name": "Organic Chicken Breast Fillets",
+      "brand": "Organic Farms",
+      "price": 12.99,
+      "quantity": 50,
+      "total":"10",
+      "status": ""
+    },
+    {
+      "id": "2",
+      "product_name": "Chicken Boss Boneless Fillets",
+      "brand": "Farm Fresh Delights",
+      "price": 11.49,
+      "quantity": 25,
+      "total":"10",
+      "status": ""
+    },
+    {
+      "id": "3",
+      "product_name": "Premium Chicken Supreme",
+      "brand": "Prime Poultry",
+      "price": 13.99,
+      "quantity": 5,
+      "total":"10",
+      "status": ""
+    },
+    {
+      "id": "4",
+      "product_name": "Chicken All-Stars Family Pack",
+      "brand": "Farm Fresh Delights",
+      "price": 19.99,
+      "quantity": 8,
+      "total":"10",
+      "status": ""
+    },
+    {
+      "id": "5",
+      "product_name": "Tender Chicken Tenders",
+      "brand": "TasteMasters",
+      "price": 9.99,
+      "quantity": 30,
+      "total":"10",
+      "status": ""
+    },
+    {
+      "id": "6",
+      "product_name": "Golden Chicken Nuggets",
+      "brand": "Crispy Delights",
+      "price": 8.99,
+      "quantity": 40,
+      "total":"10",
+      "status": ""
+    },
+    {
+      "id": "7",
+      "product_name": "Crispy Chicken Strips",
+      "brand": "Tasty Bites",
+      "price": 12.99,
+      "quantity": 32,
+      "total":"10",
+      "status": ""
+    },
+    {
+      "id": "8",
+      "product_name": "Spicy Chicken Bites",
+      "brand": "Spice Sensation",
+      "price": 11.49,
+      "quantity": 50,
+      "total":"10",
+      "status": ""
+    },
+    {
+      "id": "9",
+      "product_name": "Buffalo Chicken Wings",
+      "brand": "Wing Masters",
+      "price": 12.99,
+      "quantity": 60,
+      "total":"10",
+      "status": ""
+    },
+    {
+      "id": "10",
+      "product_name": "Savory Chicken Drumsticks",
+      "brand": "Drumstick Delights",
+      "price": 9.99,
+      "quantity": 20,
+      "total":"10",
+      "status": ""
+    },
+    {
+      "id": "11",
+      "product_name": "Crispy Chicken Thighs",
+      "brand": "Thigh Lovers",
+      "price": 10.99,
+      "quantity": 15,
+      "total":"10",
+      "status": ""
+    }
+  ]

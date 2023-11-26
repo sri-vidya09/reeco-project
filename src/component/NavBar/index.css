@@ -1,0 +1,40 @@
+.nav-bg-container{
+background-color: #205902;
+height:7vh;
+margin:0px;
+}
+.nav-item-start{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2rem;
+
+}
+.nav-item-end{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 2rem; 
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.reeco-heading{
+    color: #fff;
+    font-family:"roboto";
+    margin:5px;
+    font-size: 30px;
+    font-weight:600;
+}
+.nav-elements{
+    color: #fff;
+    margin-left:10px;
+    cursor: pointer;
+}
+.icon-nav{
+color: #fff;
+cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.bg-order{
+    display: flex;
+    flex-direction: column;
+}
+.search-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:flex-start;
+}
+.body-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.image-icon{
+    height: 40px;
+    width: 40px;
+
+}
+.items{
+    margin: 0px;
+    
+}
+.search-bar{
+    width:30%;
+    height:40px;
+    margin-top: 5px;
+}
+.button-approve{
+    background-color: #205902;
+    color: #fff;
+    border-radius:20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    margin:20px;
+    outline:0px; 
+}
