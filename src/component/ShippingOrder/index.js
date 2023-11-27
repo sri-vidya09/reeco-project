@@ -64,7 +64,7 @@ const ShippingOrder=(props)=> {
                 </div>
                 <div>
                     <p >Status</p>
-                    <h1 className='order-heading'>{onApproveOrder}</h1>
+                    <h1 className='order-heading'>{orderShipping.status}</h1>
                 </div>
                 
             </div>
