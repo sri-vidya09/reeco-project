@@ -1,6 +1,7 @@
 .button-elements{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     
     
 }
@@ -21,4 +22,8 @@
 .into-btn{
     margin-top: 0px;
     align-self: flex-end;
+}
+.button-icons{
+    display: flex;
+    flex-direction: row;
 }

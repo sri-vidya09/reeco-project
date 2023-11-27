@@ -1,18 +1,23 @@
 .bg-order-container{
     border:solid 1px #655b5b;
     margin:25px;
+    
 
 }
 .bg-order{
-    margin-left: 30px;
     margin-top: 0px;
-    width:90%;
+    width:100%;
+    padding:0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .search-item{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items:flex-start;
+    justify-content: center;
+    align-items:center;
+    margin:20px;
 }
 .body-items{
     display: flex;
@@ -20,34 +25,45 @@
   justify-content: space-between;
   align-items: center; /* Use center for vertical alignment */
   margin-bottom: 10px; /* Adjust margin for spacing between items */
+  border-bottom:1px solid #1d1b1b;
+  width:80vw;
 
 }
 
 .image-icon{
-    height: 40px;
-  width: 40px;
-  margin-right: 10px;
+    height: 30px;
+    width: 30px;
+    padding-left: 5px;
 
 }
 .items{
-    display: flex;
-    align-items: center; /* Align items vertically in flex container */
+    /* Align items vertically in flex container */
     margin: 0;
+    width:10%;  
+    align-items: center;
     
+}
+.product-name{/* Align items vertically in flex container */
+    margin: 0;
+    width: 20%;
+    align-items: center;
+}
+.product-name1{
+    margin: 0;
+    width: 20%;
+    align-items: center;
+
 }
 .search-bar{
     width:200px;
-    height:30px;
+    height:40px;
     margin-top: 20px;
+    margin-left: 30px;
     
 }
-.button-approve{
-    background-color: #205902;
-    color: #fff;
-    border-radius:20px;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-weight: 600;
-    margin:20px;
-    outline:0px; 
+
+.span-elements{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }

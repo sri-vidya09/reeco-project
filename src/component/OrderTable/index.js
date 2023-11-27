@@ -12,7 +12,7 @@ function OrderTable() {
         <div className="table-header-cell">Price</div>
         <div className="table-header-cell">Quantity</div>
         <div className="table-header-cell">Total</div>
-        <div className="table-header-cell product-name1">Status</div>
+        <div className="table-header-cell product-name">Status</div>
        </div>
     </div> 
    

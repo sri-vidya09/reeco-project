@@ -40,7 +40,8 @@ function Buttons() {
         {isMissing && !isUrgent && <p className='decision-item'  style={{backgroundColor:"#fa4002"}}>Missing</p>}
         {isUrgent && <p className='decision-item'  style={{backgroundColor:"#e80a0a"}}>Urgent-Missing</p>}
       </div>
-      <p onClick={onApprove} style={{ color: "#47b725" }}><DoneIcon /></p>
+      <div className='button-icons '> 
+        <p onClick={onApprove} style={{ color: "#47b725" }}><DoneIcon /></p>
       <Popup trigger={<p className='btn' style={{ color: "#e80a0a" }}><CloseIcon /></p>} position="center" modal>
         {close => (
           <form>
@@ -54,6 +55,8 @@ function Buttons() {
           </form>
         )}
       </Popup>
+      </div>
+     
   
     </div>
   );

@@ -1,18 +1,31 @@
 .table-contents{
-    margin: 30px;
+    margin-top: 0px;
+    width:100%;
+    padding:0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .table-header {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    border: 1px solid #201f1f;
-    border-top-right-radius:15px;
-    border-top-left-radius:15px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; /* Use center for vertical alignment */
+  margin-bottom: 10px; /* Adjust margin for spacing between items */
+  border-bottom:1px solid #1d1b1b;
+  width: 80vw;
 }
 .table-header-cell {
-
-    text-align: start;
+    width:10%;
     padding: 8px;
     margin-left: 4px;
+    align-items: center;
+}
+.product-name1{
+    width: 20%;
+    align-items: center;
+}
+.product-name{
+    width: 20%;
     align-items: center;
 }

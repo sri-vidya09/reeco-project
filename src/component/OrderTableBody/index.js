@@ -49,7 +49,7 @@ function OrderTableBody() {
   
         />
        
-        <button   className='button-approve'>Add Item</button>
+        
       </div>
 
       <OrderTable />
@@ -57,7 +57,7 @@ function OrderTableBody() {
       <div className="bg-order">
         {displayedItems.map((item, i) => (
           <div key={i} className="body-items">
-            <p className="items">
+            <p className='product-name'>
               <img
                 src="https://res.cloudinary.com/dtuk7apnu/image/upload/v1700906519/Apple_Green_Smith_maak2b.png"
                 alt="img"
@@ -65,11 +65,11 @@ function OrderTableBody() {
               />
               {item.product_name}
             </p>
-            <p className="items " >{item.brand}</p>
-            <p className="items para">{item.price}</p>
-            <p className="items para" >{item.quantity}</p>
-            <p className="items para">{calculateTotal(item)}</p>
-            <p className="items ">
+            <p className="items  " >{item.brand}</p>
+            <p className="items ">{item.price}</p>
+            <p className="items" >{item.quantity}</p>
+            <p className="items ">{calculateTotal(item)}</p>
+            <p className="items product-name1 ">
               {item.status}
               <Buttons/>
             </p>
