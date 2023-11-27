@@ -1,16 +1,8 @@
 import React from 'react'
-import { useState,useEffect } from 'react'
-import orderShipping from "../../Details/shipping.json"
 import "./index.css"
 
 const Header=() =>{
-
- 
-
   
-
-
-      
     return (
         <div className="header-card-container">
             <p className='card-alignment'>

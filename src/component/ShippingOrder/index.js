@@ -8,8 +8,10 @@ import EmojiNatureIcon from '@mui/icons-material/EmojiNature';
 import ForestIcon from '@mui/icons-material/Forest';
 import CoffeeIcon from '@mui/icons-material/Coffee';
 import "./index.css"
-const ShippingOrder=()=> {
-    const [total, setTotal] = useState(0);
+const ShippingOrder=(props)=> {
+
+  const [total, setTotal] = useState(0);
+  
    
     useEffect(() => {
         function roundToTwo(num) {
@@ -62,7 +64,7 @@ const ShippingOrder=()=> {
                 </div>
                 <div>
                     <p >Status</p>
-                    <h1 className='order-heading'>{orderShipping.status}</h1>
+                    <h1 className='order-heading'>{onApproveOrder}</h1>
                 </div>
                 
             </div>

@@ -1,6 +1,12 @@
+.bg-order-container{
+    border:solid 1px #655b5b;
+    margin:25px;
+
+}
 .bg-order{
-    display: flex;
-    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 0px;
+    width:90%;
 }
 .search-item{
     display: flex;
@@ -10,23 +16,30 @@
 }
 .body-items{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; /* Use center for vertical alignment */
+  margin-bottom: 10px; /* Adjust margin for spacing between items */
+
 }
 
 .image-icon{
     height: 40px;
-    width: 40px;
+  width: 40px;
+  margin-right: 10px;
 
 }
 .items{
-    margin: 0px;
+    display: flex;
+    align-items: center; /* Align items vertically in flex container */
+    margin: 0;
     
 }
 .search-bar{
-    width:30%;
-    height:40px;
-    margin-top: 5px;
+    width:200px;
+    height:30px;
+    margin-top: 20px;
+    
 }
 .button-approve{
     background-color: #205902;

@@ -1,14 +1,19 @@
 import React, { useState } from 'react';
 import details from '../../Details/details.json';
+
 import OrderTable from '../OrderTable';
 import Buttons from '../Buttons';
+import Header from '../Header';
+import ShippingOrder from '../ShippingOrder';
 
 
 import './index.css';
 
+
 function OrderTableBody() {
   const [searchTerm, setSearchTerm] = useState('');
   const [displayedItems, setDisplayedItems] = useState(details);
+
 
   const calculateTotal = (item) => {
     return item.price * item.quantity;
@@ -26,9 +31,12 @@ function OrderTableBody() {
       handleSearch();
     }
   };
-
+ 
   return (
     <>
+    <Header />
+    <ShippingOrder/>
+    <div className='bg-order-container'>
       <div className="search-item">
         
            <input
@@ -40,7 +48,6 @@ function OrderTableBody() {
           className='search-bar'
   
         />
-
        
         <button   className='button-approve'>Add Item</button>
       </div>
@@ -58,18 +65,20 @@ function OrderTableBody() {
               />
               {item.product_name}
             </p>
-            <p className="items para" >{item.brand}</p>
-            <p className="items">{item.price}</p>
-            <p className="items">{item.quantity}</p>
-            <p className="items">{calculateTotal(item)}</p>
-            <p className="items para">
+            <p className="items " >{item.brand}</p>
+            <p className="items para">{item.price}</p>
+            <p className="items para" >{item.quantity}</p>
+            <p className="items para">{calculateTotal(item)}</p>
+            <p className="items ">
               {item.status}
               <Buttons/>
             </p>
           </div>
         ))}
       </div>
+    </div>
     </>
+    
   );
 }
 

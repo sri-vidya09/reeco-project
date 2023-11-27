@@ -37,16 +37,16 @@ function Buttons() {
          <div>
         {isApproved &&" "&& <p className='decision-item' style={{backgroundColor:"#47b725"}}>Approved</p> }
 
-        {isMissing && !isUrgent && <p className='decision-item'  style={{backgroundColor:"rgb(200, 73, 9)"}}>Missing</p>}
+        {isMissing && !isUrgent && <p className='decision-item'  style={{backgroundColor:"#fa4002"}}>Missing</p>}
         {isUrgent && <p className='decision-item'  style={{backgroundColor:"#e80a0a"}}>Urgent-Missing</p>}
       </div>
       <p onClick={onApprove} style={{ color: "#47b725" }}><DoneIcon /></p>
       <Popup trigger={<p className='btn' style={{ color: "#e80a0a" }}><CloseIcon /></p>} position="center" modal>
         {close => (
           <form>
-            <div>
-              <h1>Missing Product</h1>
-              <button className="into-btn" onClick={() => close()}>X</button>
+            <div className='header'>
+            <button className="into-btn" onClick={() => close()}>X</button>
+              <h1 className='missing-heading'>Missing Product?</h1>
             </div>
             <p>Is Chicken Breast ...urgent?</p>
             <button onClick={() => { onUrgent(); close(); }} className='yes-button'>yes</button>
